@@ -1,0 +1,251 @@
+<!---COMPLETED NAV ANCHORS, PICK UP AT 1:10 of Step 415 - to make cards/badges for movies-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Academy Cinemas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg bg-info">
+           
+            <div class="container-fluid">
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="#about">About</a>
+                  </li>
+
+                  <li class="nav-item dropdown active">
+                    <a class="nav-link text-light dropdown-toggle" href="#showtimes" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Showtimes
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#showtimes">Now Playing</a></li>
+                      <li><a class="dropdown-item" href="#comingsoon">Coming Soon</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="#deals">Deals</a>
+                  </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-primary text-light" type="submit">Search</button>
+                </form>
+
+              </div>
+            </div>
+          </nav>
+
+          <div class="jumbotron jumbotron-fluid bg-info text-center">
+            <div class="container">
+
+              <h1 class="display-4 text-light">Academy Cinemas</h1>
+              <p class="lead text-light">Sit back , relax, and enjoy the show!</p>
+            
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <img class="img-fluid" src="./images/west_asheville.jpg" alt=""/>
+              </div>
+
+              <div class="col-sm">
+                <section id="about">
+                  <h3>The Ultimate Classic Movie Experience</h3>
+                  <p>Located in eclectic West Asheville, North Carolina, our reels have been spinnings since 1959.</p>
+                  <p>Showing our guests a great time...through great vintage films...is our passion</p>
+                  <p>All of our historic theaters are equipped with state-of-the-art Christie 3D sound systems!</p>
+                  <p>Relax in our extra-wide, plus cushioning recliners. Our theaters are friendly to all ages and abilities &#9855;.</p>
+                </section>
+              </div>
+
+              <div class="col-sm">
+                <h3>Now Playing</h3>
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <a class="nav-link" href="#showtimes">Young Frankenstein</a>
+                      </li>
+                      <li class="list-group-item">
+                        <a class="nav-link" href="#showtimes">My Neighbor Totoro</a>
+                      </li>
+                      <li class="list-group-item">
+                        <a class="nav-link" href="#showtimes">Clueless</a>
+                      </li>
+                    </ul>
+              </div>
+            </div>
+          </div>
+
+          <!---SHOWTIMES-->
+          <section id="showtimes">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/young_frankenstein.png" alt="young frankenstein movie poster">
+                    <div class="card-body">
+                      <h5 class="card-title">Young Frankenstein</h5>
+                      <p class="card-text">Mel Brooks' "Scariest Comedy of All-Time!". An American grandson of the infamous scientist, struggling to prove that his grandfather was not as insane as people believe, is invited to Transylvania, where he discovers the process that reanimates a dead body.</p>
+                      <span class="badge badge-pill badge-info">12:00 p.m.</span>
+                      <span class="badge badge-pill badge-info">1:30 p.m.</span>
+                      <span class="badge badge-pill badge-info">3:00 p.m.</span>
+                      <span class="badge badge-pill badge-info">5:30 p.m.</span>
+                      <span class="badge badge-pill badge-info">7:00 p.m.</span>
+                      <span class="badge badge-pill badge-info">9:30 p.m.</span>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-sm">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/totoro.jpg" alt="totoro poster">
+                    <div class="card-body">
+                      <h5 class="card-title">My Neighbor Totoro</h5>
+                      <p class="card-text">Miyazaki's 1988 Classic. When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.</p>
+                      <span class="badge badge-pill badge-info">12:00 p.m.</span>
+                      <span class="badge badge-pill badge-info">1:30 p.m.</span>
+                      <span class="badge badge-pill badge-info">3:00 p.m.</span>
+                      <span class="badge badge-pill badge-info">5:30 p.m.</span>
+                      <span class="badge badge-pill badge-info">7:00 p.m.</span>
+                      <span class="badge badge-pill badge-info">9:30 p.m.</span>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-sm">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/clueless.jpg" alt="Clueless poster">
+                    <div class="card-body">
+                      <h5 class="card-title">Clueless</h5>
+                      <p class="card-text">Often overlooked in the pantheon of coming-of-age teen comedies, this loose adaptation of Jane Austen's 1815 novel <i>Emma</i> should not be missed. Shallow, rich and socially successful Cher is at the top of her Beverly Hills high school's pecking scale. Seeing herself as a matchmaker, Cher first coaxes two teachers into dating each other.</i></p>
+                      <span class="badge badge-pill badge-info">12:00 p.m.</span>
+                      <span class="badge badge-pill badge-info">1:30 p.m.</span>
+                      <span class="badge badge-pill badge-info">3:00 p.m.</span>
+                      <span class="badge badge-pill badge-info">5:30 p.m.</span>
+                      <span class="badge badge-pill badge-info">7:00 p.m.</span>
+                      <span class="badge badge-pill badge-info">9:30 p.m.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!---END SHOWTIMES-->
+
+          <!--Jumbotron Heading-->
+          <div class="jumbotron jumbotron-fluid bg-info mt-5 text-center">
+            <div class="container">
+              <h1 class="display-4 hidden-sm-down" style="color:#fff;font-family: roboto; font-weight:900;text-transform:uppercase;">
+              Movie Deals</h1>
+              <p class="lead">Check out our monthly deals...</p>
+              <!--Movie Deals-->
+              <button type="button" class="btn btn-light" data-toggle="modal" data-target="#register">See our monthly movie deals!</button>
+            </div>
+          </div>
+          <!--END Jumbotron Heading-->
+
+          <!--Movie Club Sign-Up-->
+          <section id="deals">
+            <div class="text-center">
+                <form>
+                  <h1 class="text-primary my-5">Sign up for our Movie Club Rewards!</h1>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  </div>
+                  <button type="button" class="btn btn-primary popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="Submit your email to sign up for our Movie Club, and receive great movie reward deals!">
+                    Sign Up!
+                  </button>
+                </form>
+            </div>
+          </section>
+          <!--END Movie Club Sign-Up-->
+
+          <!--Form Modal-->
+          <div class="modal" id="register" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Movie Deal Registration</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+
+                  <form>
+                    <div class="form-group">
+                      <label for="firstname">First Name</label>
+                      <input type="text" class="form-control" id="firstname" placeholder="First Name...">
+                    </div>
+                    <div class="form-group">
+                      <label for="lastname">Last Name</label>
+                      <input type="text" class="form-control" id="Last Name" placeholder="Last Name...">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">E-Mail</label>
+                      <input type="text" class="form-control" id="email" placeholder="E-Mail...">
+                    </div>
+                    <div class="form-group">
+                      <label for="password">Password</label>
+                      <input type="text" class="form-control" id="password" placeholder="Password...">
+                    </div>
+                  </form>
+                  
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END Form Modal-->
+    
+
+          <!--Footer-->
+          <div class="container my-5">
+            <ul class="nav nav-inline">
+
+              <li class="nav-item">
+                <small><a class="nav-link active" href="#">Movie Rewards</a></small>
+              </li>
+              <li class="nav-item">
+                <small><a class="nav-link" href="#">Movies@news.org</a></small>
+              </li>
+              <li class="nav-item">
+                <small><a class="nav-link" href="#">info@academycinemas.com</a></small>
+              </li>
+              <li class="nav-item">
+                <small class="nav-link">&copy;2019 Academy Cinemas&reg;</small>
+              </li>
+            </ul>
+          </div>
+          <!--End Footer-->
+    </div>
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script>
+      $('.popover-dismiss').popover({
+      trigger: 'focus'
+      })
+    </script>
+  
+  </body>
+</html>
